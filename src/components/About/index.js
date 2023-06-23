@@ -1,9 +1,9 @@
 import { useEffect, useState } from 'react'
 import {
-  faAngular,
   faCss3,
   faGitAlt,
   faHtml5,
+  faJira,
   faJsSquare,
   faReact,
 } from '@fortawesome/free-brands-svg-icons'
@@ -33,25 +33,21 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm a very ambitious front-end developer looking for a role in an
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            I am an ambitious front-end developer seeking a position in a reputable IT company where I can contribute my skills and work with cutting-edge technologies on exciting and varied projects.
           </p>
           <p align="LEFT">
             I'm quiet confident, naturally curious, and perpetually working on
             improving my chops one design problem at a time.
           </p>
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            In summary, I am a dedicated front-end developer with a strong passion for personal growth and a well-rounded lifestyle encompassing family, sports, photography, and technology.
           </p>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <FontAwesomeIcon icon={faAngular} color="#DD0031" />
+              <FontAwesomeIcon icon={faJira} color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />

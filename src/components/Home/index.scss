@@ -17,9 +17,9 @@
     font-weight: 400;
 
     &:before {
-      content: '<h1>';
+      content: '<👨🏿‍💻>';
       font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      color: green;
       font-size: 18px;
       position: absolute;
       margin-top: -40px;
@@ -28,9 +28,9 @@
     }
 
     &:after {
-      content: '<h1/>';
+      content: '<👨🏿‍💻/>';
       font-family: 'La Belle Aurore', cursive;
-      color: #ffd700;
+      color: green;
       font-size: 18px;
       position: absolute;
       margin-top: 18px;
@@ -60,27 +60,25 @@
   }
 
   .flat-button {
-    color: #ffd700;
+    color: green;
     font-size: 13px;
     font-weight: 400;
     letter-spacing: 4px;
     font-family: sans-serif;
     text-decoration: none;
     padding: 10px 18px;
-    border: 1px solid #ffd700;
+    border: 1px solid green;
     margin-top: 25px;
     float: left;
     animation: fadeInAnimation 1s 1.8s backwards;
     white-space: nowrap;
 
     &:hover {
-      background: #ffd700;
+      background: green;
       color: #333;
     }
   }
 }
-
-
 
 @media screen and (max-width: 1200px) {
   .tags,
