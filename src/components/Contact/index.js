@@ -1,37 +1,18 @@
+import { faCss3, faGitAlt, faHtml5, faJira, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { useEffect, useState } from 'react'
 import Loader from 'react-loaders'
-import { useRef } from 'react'
-import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faCss3, faGitAlt, faHtml5, faJira, faJsSquare, faReact } from '@fortawesome/free-brands-svg-icons'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
-  const form = useRef()
 
   useEffect(() => {
     return setTimeout(() => {
       setLetterClass('text-animate-hover')
     }, 3000)
   }, [])
-
-  const sendEmail = (e) => {
-    e.preventDefault()
-
-    emailjs
-      .sendForm('gmail', 'template_YeJhZkgb', form.current, 'your-token')
-      .then(
-        () => {
-          alert('Message successfully sent!')
-          window.location.reload(false)
-        },
-        () => {
-          alert('Failed to send the message, please try again')
-        }
-      )
-  }
 
   return (
     <>
@@ -46,46 +27,16 @@ const Contact = () => {
           </h1>
           <p>
             I am actively seeking freelance opportunities, particularly on ambitious or large-scale projects. However, I am open to any other requests or questions you may have.
-            Please feel free to reach out to me using the contact form below.
+            Please feel free to reach out to me using the contact below.
           </p>
-          <div className="contact-form">
-            <form ref={form} onSubmit={sendEmail}>
-              <ul>
-                <li className="half">
-                  <input placeholder="Name" type="text" name="name" required />
-                </li>
-                <li className="half">
-                  <input
-                    placeholder="Email"
-                    type="email"
-                    name="email"
-                    required
-                  />
-                </li>
-                <li>
-                  <input
-                    placeholder="Subject"
-                    type="text"
-                    name="subject"
-                    required
-                  />
-                </li>
-                <li>
-                  <textarea
-                    placeholder="Message"
-                    name="message"
-                    required
-                  ></textarea>
-                </li>
-                <li>
-                  <input type="submit" className="flat-button" value="SEND" />
-                </li>
-              </ul>
-            </form>
-          </div>
+          <h2 className='hstyle'>
+            Email:- <a className='emailstyle' href="mailto:rohtmystic.com">rohtmystic.com</a>
+          </h2>
+          <h2 className='hstyle'>
+            Phone:- <a className='emailstyle' href="tel:8083223791">8083223791</a>
+          </h2>
         </div>
         <div className="stage-cube-cont">
-          <h2 style={{ color: 'green', fontSize: '26px' }}>Email:- rohtmystic.com</h2>
           <div className="cubespinner">
             <div className="face1">
               <FontAwesomeIcon icon={faJira} color="#DD0031" />
