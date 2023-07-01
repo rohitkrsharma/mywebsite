@@ -9,6 +9,12 @@ $primary-color: green;
   font-weight: normal;
   font-style: normal;
 }
+@font-face {
+  font-family: 'Montserrat';
+  src: url('./assets/fonts/Montserrat-Bold.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'La Belle Aurore';
