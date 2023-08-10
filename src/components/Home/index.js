@@ -9,7 +9,7 @@ import { faCss3, faGitAlt, faHtml5, faJira, faJsSquare, faReact } from '@fortawe
 const Home = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  const nameArray = ['','R', 'o', 'h', 'i', 't']
+  const nameArray = ['', 'R', 'o', 'h', 'i', 't']
   const jobArray = [
     'w',
     'e',
@@ -38,7 +38,7 @@ const Home = () => {
       <div className="container home-page">
         <div className="text-zone">
           <h1>
-            <span className={letterClass}>H</span>
+            <span  className={letterClass}>H</span>
             <span className={`${letterClass} _12`}>i,</span>
             <br />
             <span className={`${letterClass} _13`}>I</span>
