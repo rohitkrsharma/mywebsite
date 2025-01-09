@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "image": "./Images/tekprowess.webp",
+    "title": "Tekprowess",
+    "description": "Tekprowess is a modern and dynamic tech company website designed using React and Tailwind CSS. The site offers a sleek, responsive layout, showcasing the company's expertise and services in the tech industry. With a focus on user experience and aesthetic appeal, Tekprowess combines innovative design with powerful functionality to present a professional online presence.",
+    "link": "https://www.tekprowess.com/"
+  },
+  {
+    "id": 2,
+    "image": "./Images/portfolio.jpg",
+    "title": "Portfolio",
+    "description": "My portfolio reflects my extensive experience and expertise across various domains. With over 10 successful projects completed, including 2 educational sessions and 4 detailed chapters, it demonstrates my ability to deliver impactful results. These projects span a wide range of industries, showcasing my versatility and unwavering commitment to excellence in every undertaking.",
+    "link": "https://mywebsite-kohl.vercel.app/"
+  },
+  {
+    "id": 3,
+    "image": "./Images/wedding.jpeg",
+    "title": "Wedding Site",
+    "description": "The wedding invitation website I designed using React and Tailwind CSS provides a stylish and interactive platform for couples. Featuring a beautiful design based on wedding illustrations, the site presents event details and invites in a unique way. The responsive layout ensures a smooth experience on any device, making it an ideal digital space for a memorable wedding celebration.",
+    "link": "https://wedding-invitation-tuvd.vercel.app/"
+  },
+  {
+    "id": 4,
+    "image": "./Images/tc.jpg",
+    "title": "Medical Website",
+    "description": "The medical website I created enables users to book injection appointments and request personal care with ease. Featuring a user-friendly interface and seamless booking system, the site offers a smooth experience for those seeking medical services. The responsive design ensures easy access on any device, providing convenient healthcare solutions at your fingertips.",
+    "link": "https://takecare-iota.vercel.app/"
+  },
+  {
+    "id": 5,
+    "image": "./Images/digital.webp",
+    "title": "Marc2Digital",
+    "description": "Marc2Digital is a sleek, professional website designed using HTML, CSS, and Bootstrap. The site offers a clean, responsive layout, showcasing the company’s services and expertise in the digital space. With an emphasis on user experience and modern design, Marc2Digital ensures seamless navigation and accessibility across all devices, making it a powerful online presence for any digital business.",
+    "link": "https://marc2digital.vercel.app/"
+  },
+  {
+    "id": 6,
+    "image": "./Images/digital-transformation.webp",
+    "title": "Digifalak",
+    "description": "Digifalak is a cutting-edge website built with React, Tailwind CSS, and Node.js, representing a web development and digital marketing company. It combines a modern, responsive design with powerful backend functionality,The user-friendly interface ensures seamless navigation, providing an optimal experience across all devices, making Digifalak a standout online presence for businesses seeking innovative digital solutions.",
+    "link": "https://digifalak.com/"
+  }
+]

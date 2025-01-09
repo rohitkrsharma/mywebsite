@@ -2,8 +2,6 @@ import React, { useEffect, useState } from "react";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
 import "./index.scss";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCss3, faGitAlt, faHtml5, faJira, faJsSquare, faReact } from "@fortawesome/free-brands-svg-icons";
 
 const Portfolio = () => {
     const [letterClass, setLetterClass] = useState('text-animate');
@@ -34,7 +32,7 @@ const Portfolio = () => {
                         In summary, I am a dedicated front-end developer with a strong passion for personal growth and a well-rounded lifestyle encompassing family, sports, photography, and technology.
                     </p>
                 </div>
-              
+
             </div>
 
             <Loader type="pacman" />
