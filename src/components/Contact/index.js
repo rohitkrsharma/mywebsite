@@ -26,14 +26,16 @@ const Contact = () => {
             />
           </h1>
           <p>
-            I am actively seeking freelance opportunities, particularly on ambitious or large-scale projects. However, I am open to any other requests or questions you may have.
-            Please feel free to reach out to me using the contact below.
+            I am open to collaborating on a wide range of projects, from modern and responsive websites to feature-rich web applications. Whether you need a sleek portfolio, an e-commerce platform, or a custom web solution, I am here to bring your vision to life with a reliable and innovative approach.
+          </p>
+          <p>
+            Feel free to reach out for any inquiries, project discussions, or collaborations. I am dedicated to delivering exceptional results tailored to your needs. Let’s create something remarkable together!
           </p>
           <h2 className='hstyle'>
-            Email:- <a className='emailstyle' href="mailto:rohtmystic.com">rohtmystic.com</a>
+            Email:- <a className='emailstyle' href="mailto:rohtmystic@gmail.com">rohtmystic@gmail.com</a>
           </h2>
           <h2 className='hstyle'>
-            Phone:- <a className='emailstyle' href="tel:8083223791">8083223791</a>
+            Phone:- <a className='emailstyle' href="tel:+91-8083223791">+91-7903945913</a>
           </h2>
         </div>
         <div className="stage-cube-cont">

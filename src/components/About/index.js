@@ -33,13 +33,13 @@ const About = () => {
             />
           </h1>
           <p>
-            I am a passionate frontend developer with 2 years of experience in the field. I specialize in creating dynamic and responsive user interfaces using technologies such as React, Bootstrap, HTML, CSS, JavaScript, Material UI, and jQuery. I am dedicated to delivering high-quality code and creating engaging web experiences.
+            I am a passionate frontend developer with over 2+ years of experience in the field. I specialize in building dynamic, responsive, and user-friendly web interfaces using technologies such as <strong>React, Tailwind CSS, Bootstrap, HTML, CSS, JavaScript, Material UI, and jQuery. My expertise also extends to backend technologies like Node.js, Express, MongoDB, and SQL,</strong> allowing me to contribute to full-stack development projects.
           </p>
           <p>
-            In addition to my technical skills, I have a strong eye for design and a deep understanding of user experience principles. I am constantly staying updated with the latest industry trends and technologies to ensure that I am delivering modern and cutting-edge solutions.
+            With a keen eye for design and a solid understanding of user experience principles, I strive to deliver high-quality code and create engaging, modern web experiences. I stay updated with the latest industry trends and technologies, including AWS, Git, GitHub, and deployment platforms like Vercel, ensuring that I provide cutting-edge solutions tailored to client needs.
           </p>
           <p>
-            I am always excited to take on new challenges and contribute my expertise to create exceptional web experiences. Feel free to explore my portfolio to see some of the projects I have worked on. If you have any questions or would like to discuss a potential collaboration, please don't hesitate to get in touch.
+            I am always eager to take on new challenges and leverage my expertise to develop exceptional web applications. My portfolio includes projects such as <strong>Tekprowess, Digifalak, Marc2Digital, a wedding invitation website, and a medical services platform,</strong> showcasing my versatility and dedication to excellence. Feel free to explore my portfolio, and don’t hesitate to reach out if you’d like to discuss a potential collaboration or have any questions.
           </p>
         </div>
 

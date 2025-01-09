@@ -8,7 +8,7 @@
   },
   {
     "id": 2,
-    "image": "./Images/portfolio.jpg",
+    "image": "./Images/Portfolio.jpg",
     "title": "Portfolio",
     "description": "My portfolio reflects my extensive experience and expertise across various domains. With over 10 successful projects completed, including 2 educational sessions and 4 detailed chapters, it demonstrates my ability to deliver impactful results. These projects span a wide range of industries, showcasing my versatility and unwavering commitment to excellence in every undertaking.",
     "link": "https://mywebsite-kohl.vercel.app/"
